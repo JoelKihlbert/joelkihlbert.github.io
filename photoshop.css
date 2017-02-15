@@ -1,0 +1,155 @@
+@charset "utf-8";
+
+
+/* #Ram
+{
+	height:1000px;
+	width:1600px;
+	background-color:#FFF;
+	padding:20px;
+}
+header
+{
+	height:10%;
+	width:100%;
+	background-color:#FFF;
+	text-align:center;
+	font-size:40px;
+}
+nav
+{
+	height:5%;
+	width:100%;
+	background-color:#FFF;
+	margin-bottom:20px;
+
+}
+img.bild1
+{
+	width:850px;
+	height:500px;
+	margin-left:25%;
+	float:left;
+	margin-bottom:100px;
+}
+
+img.bild2
+{
+	width:850px;
+	height:500px;
+	margin-left:25%;
+	float:left;
+	margin-bottom:100px;
+}
+a.färg
+{
+	color:#000;
+}
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	 color:#000;
+	margin:0;
+}
+#Ram
+{
+	height:1000px;
+	width:1600px;
+	background-color:#FFF;
+	padding:20px;
+	margin-left:8%;
+}
+header
+{
+	height:10%;
+	width:100%;
+	background-color:#999;
+	text-align:center;
+	font-size:40px;
+	border-radius:80	%;
+	margin-bottom:20px;
+}
+nav
+{
+	height:5%;
+	width:100%;
+	background-color:#999;
+	margin-bottom:20px;
+
+}
+ul
+{
+	list-style:none;
+	text-align:center;
+	padding:0;
+	margin:0;
+	height:100%;
+}
+li a{
+	padding:15px;
+	box-sizing:border-box;
+	width:25%;
+	height:100%;
+	float:left;
+	margin-left:17%;
+	background-color:#999;
+	color:#000;
+	
+}
+
+li a:hover{
+	background-color:#FFF;
+
+}
+
+article
+{
+	padding:20px;
+	height:75%;
+	width:85%;
+	background-color:#FFF;
+	float:left;
+	box-sizing:border-box;
+}
+article.start1
+{
+	padding:20px;
+	height:75%;
+	width:85%;
+	background-color:#FFF;
+	float:left;
+	box-sizing:border-box;	
+}
+aside{
+	float:left;
+	height:75%;
+	width:13%;
+	background-color:#FFF;
+}
+img.bild1
+{
+	width:850px;
+	height:500px;
+	margin-left:25%;
+	float:left;
+	margin-bottom:100px;
+}
+img.bild2
+{
+	width:850px;
+	height:500px;
+	margin-left:25%;
+	float:left;
+	margin-bottom:100px;
+}
+
+
+
+
+
+
+
+
+
+
