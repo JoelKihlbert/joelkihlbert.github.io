@@ -33,9 +33,18 @@ var main = function() {
 			.end()
 			.appendTo('#slideshow');
 		};
-	},  5000);
+	},  3000);
    
 	
 };
+var bilder;
+function changeSiteInfo(){
+		$(".slider-container").css("display", "none");	
+		$(".info-container").css("display", "block");
+}
+function changeSiteBilder(){
+		$(".slider-container").css("display", "block");	
+		$(".info-container").css("display", "none");
+}
 
 $(document).ready(main);// JavaScript Document

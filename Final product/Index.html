@@ -11,10 +11,10 @@
 	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <script src="Javascript.js"></script>
 	<div id="Box">
-              	<img class="Zap" src="Bilder/Zap2.png" alt="zap">
-                <img class="Pow" src="Bilder/Pow2.png" alt="pow">
-                <img class="Whack" src="Bilder/whack2.png" alt="whack">
-                <img class="rök" src="Bilder/giphy (1).gif" alt="smoke">
+              	<img class="Zap" src="Bilder/Zap.png" alt="zap">
+                <img class="Pow" src="Bilder/Pow.png" alt="pow">
+                <img class="Whack" src="Bilder/whack.png" alt="whack">
+                <img class="rök" src="Bilder/giphy (1).gif" alt="smoke"> 
 
     	<header>
         	<h1>Real life superheroes</h1>
@@ -30,10 +30,12 @@
         
         <article>
         	<div class="meny2">
-            	<div class="meny3">Bilder </div>
-              	<div class="meny3">Kort info </div>
+            	<ul>
+            		<li class="meny3 bilder-s" onClick="changeSiteBilder()">Bilder</li>
+              		<li class="meny3 info-s" onClick="changeSiteInfo()">Kort Info</li>
+                </ul>     
             </div>
-        	<div class=container>
+        	<div class="slider-container">
  			<a href="#" class="arrowL">&lt;</a>
             <div id="slideshow">
             <div><img src="Bilder/group1-large.jpg"></div>
@@ -43,6 +45,23 @@
             </div>
             <a href="#" class="arrowR">&gt;</a>
             </div>
+            <div class="info-container">
+            	<h2>
+                	Information om RLSH
+                </h2>
+                <p class="InfoText">
+                    	
+					Känner du igen en superhjälte när du ser en? Tror du att sådana män och kvinnor verkligen finns? Om inte, tänk igen.
+				</p>
+                <p class="InfoText">
+					Det finns faktiskt en massa av äkta hjältar, som skapar en balans mellan det fantastiska och det praktiska. Anonym och osjälvisk, de väljer varje dag för att göra en 			                    skillnad i världen runt dem. Oavsett om det matar de hungriga, hjälper de sjuka, eller städar upp sina bostadsområden, räddar de riktiga liv på väldigt riktiga sätt. Dessa                    är inte konstiga personer i dräkter, som de kan tyckas vid första anblicken. De är helt enkelt radikala svar ... till radikala problem.
+				</p>
+                <p class="InfoText">
+                    Så vem är dessa hjältar? De är våra grannar, våra vänner, våra familjemedlemmar. De är artister, musiker, idrottare och iböand även politiker. Deras handlingar fungerar                    som påminnelser om att som de flesta som idag har blivit reaktiva digitala och borttagna, tillfälligt lugnande vår skuld och känslor av hjälplöshet-vi har blindat oss                    till enkla principer och övning av medkänsla och god vilja.	
+               </p>
+                    	   
+            </div>
+            
         </article>
 	</div>
 
